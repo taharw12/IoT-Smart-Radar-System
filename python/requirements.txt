@@ -1,0 +1,4 @@
+opencv-contrib-python>=4.9.0
+pyserial>=3.5
+numpy>=1.26.0
+mediapipe>=0.10.0

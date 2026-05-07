@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(arduino-cli version *)",
+      "Bash(python -m pip --version)",
+      "PowerShell(cmd /c \"dir \"\"C:\\\\Program Files\\\\Arduino IDE\\\\\"\"\")",
+      "PowerShell(Get-Process -Id 26588)",
+      "PowerShell(Start-Process -FilePath \"python\" -ArgumentList \"main.py\" -WorkingDirectory \"C:\\\\Users\\\\ASUS\\\\OneDrive\\\\Desktop\\\\IOT_pro\\\\python\")",
+      "PowerShell(Get-Process -Name \"python\" -ErrorAction SilentlyContinue)",
+      "PowerShell(python -m pip install mediapipe 2>&1)",
+      "PowerShell(python -c \"import mediapipe; print\\('mediapipe version:', mediapipe.__version__\\)\")",
+      "PowerShell(Stop-Process -Force)",
+      "PowerShell(Get-Process | Select-Object Id, Name, CPU, MainWindowTitle | Where-Object { $_.CPU -ne $null } | Sort-Object CPU -Descending | Select-Object -First 15)",
+      "Bash(python main.py)"
+    ]
+  }
+}
